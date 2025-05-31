@@ -1,0 +1,22 @@
+Projet : Moteur de Recherche Personnalisé sur un Grand Volume de Documents (avec
+Elasticsearch)
+ Objectif : Développer un moteur de recherche capable d'indexer et de rechercher
+efficacement dans une grande collection de documents (par exemple, des articles de
+presse, des publications scientifiques), en offrant des fonctionnalités de recherche
+plein texte, de filtrage et de classement par pertinence, en utilisant Elasticsearch.
+ Plan :
+o A. Théorie : Introduction aux moteurs de recherche basés sur l'indexation
+inversée et à Elasticsearch. Concepts clés : index, document, champ, analyse
+de texte, requêtes avec l'API Elasticsearch.
+o B. Pratique :
+ Collecte de documents : Acquérir un jeu de données de documents
+textuels.
+ Indexation : Configurer Elasticsearch et indexer les documents, en
+définissant le mapping des champs et l'analyse du texte.
+ Développement d'une API de recherche : Créer une interface (API
+REST ou interface utilisateur simple) permettant aux utilisateurs de
+soumettre des requêtes de recherche. Utiliser l'API Elasticsearch pour
+exécuter les recherches et afficher les résultats.
+ Fonctionnalités avancées : Implémenter des fonctionnalités comme la
+recherche par facettes, la mise en évidence des termes recherchés, et le
+classement par pertinence (scoring)
